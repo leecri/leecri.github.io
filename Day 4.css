@@ -1,0 +1,13 @@
+h1{
+  color: grey
+  font-family:'Palatino Linotype', serif;
+  font-size: 32px;
+}
+
+.hero{
+  background-image:
+  url("https://www.goodfreephotos.com/albums/other-photos/backgrounds/blue-watercolor-background.jpg");
+  color: white
+  font-family: 'Trebuchet MS', Helvetica;
+  font-size: 2rem
+}
