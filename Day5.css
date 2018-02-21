@@ -1,10 +1,14 @@
 body {
   background-color: #e6fff3;
-
-p {
   color: #4db8ff;
 }
 
-.h1 {
-  margin-left: 50%;
+
+h1 {
+  text-align: center;
+}
+
+
+.p1 {
+  color: #ffaa80;
 }
