@@ -1,0 +1,20 @@
+body {
+  background-color: #daffd1;
+  text-align:center;
+
+}
+h1 {
+  color: #93ce82;
+  border: 2px solid #3d6b45;
+  padding: 10px;
+  text-align: center;margin: 2rem;
+
+}
+
+.main {
+  color: #6da577;
+  margin: 2rem;
+  margin-top: 3rem;
+  border: 2px solid #3d6b45;
+
+}
