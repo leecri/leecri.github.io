@@ -1,0 +1,136 @@
+
+
+body {
+  font-family: Helvetica, Calibri, Sans-serif;
+  color: #4d1d18;
+  line-height: 150%;
+}
+
+.company_logo {
+  background-color: RGB(105,39,33);
+}
+
+.company_logo_image {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h1 {
+  color: #87423c;
+  font-size: 36px;
+}
+
+h2, h3, h4 {
+  color:#4d1d18;
+  font-size: 24px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+  align-items: stretch;
+}
+
+.flex-container > navbox {
+  height: auto;
+  background-color: #cee9d5;
+  width: 320px;
+}
+
+.flex-container > maincontent {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  text-align: center;
+  background-color: #cee2e9;
+  padding: 20px;
+}
+
+a, a:link {
+  color: #87423c;
+}
+
+#nav li {
+  color: #4d1d18;
+  text-align:left;
+  list-style-type: none;
+  line-height: 200%;
+  padding-left: 2px;
+}
+
+#nav a, #nav a:link {
+  color: #4d1d18;
+  text-decoration: none;
+}
+
+#nav a:active, #nav a:focus {
+  background-color: #white;
+}
+
+#nav a:visited {
+  color: purple;
+}
+#nav #current {
+  background-color: pink;
+}
+
+#nav a:hover {
+  background-color: #555;
+}
+
+@media (max-device-width: 480px) {
+  .flex-container > navbox {
+    height: auto;
+  }
+  footer { position: static;
+  }
+  header { padding-top:40px;
+  }
+  .mainpage_image {width: 50%;
+  }
+  .images {width: 50%;
+  }
+  .logo_box {height: auto;
+  }
+}
+
+footer {
+  position: absolute;
+  background-color: #e9e4ce;
+  padding: 35px;
+  margin-bottom: 10px;
+  right: 8px;
+  left: 8px;
+  /*color: #87423c;*/
+}
+
+.copyright {
+  float: left;
+}
+
+.logo_box {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.footer_logos {
+padding: 3px;
+float: right;
+border-bottom: 10px;
+}
+
+.images {
+  object-fit: contain;
+  max-width: 500px;
+  height: auto;
+  margin-top:30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  align-items:center;
+}
